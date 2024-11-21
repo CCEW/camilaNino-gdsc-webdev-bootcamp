@@ -4,75 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio</title>
+    <title>Camila Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        
-            <nav>
-                <ul>
-                    <a href="#about">About Me</a>
-                    <a href="#coursework">Coursework</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#contact">Contact</a>
-                </ul>
-            </nav>
-        <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#coursework">Coursework</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cont">
             <h1>Camila Nino Francia</h1>
-            
         </div>
     </header>
-
-    <section id="about" class="container">
+    <section id="about" class="section container">
         <h2>About Me</h2>
-            <p>Hobbies and fun facts:</p>
-            <ul>
-                <li>I love watching series</li>
-                <li>I enjoy going to the movies</li>
-                <li>I spend most of my time coding</li>
-            </ul>
-            
+        <p>Hobbies and fun facts:</p>
+        <ul>
+            <li>I love watching series</li>
+            <li>I enjoy going to the movies</li>
+            <li>I spend most of my time coding</li>
+        </ul>
     </section>
 
-
-    <section id="coursework" class="container">
+    <section id="coursework" class="section container">
         <h2>Coursework</h2>
         <p>Here are some of the courses I have taken:</p>
         <ul>
             <li>Introduction to Computer Science</li>
-            <li>Object Oriented Programming</li>
+            <li>Object-Oriented Programming</li>
             <li>Data Structures and Algorithms</li>
         </ul>
     </section>
 
-    <section id="projects" class="container">
+    <section id="projects" class="section container">
         <h2>Projects</h2>
-        <div>
-            <h3>Song Genre Classification with Python</h3>
-            <ul>
-                <li>Developed a machine learning model for genre prediction (backend) and a Streamlit-based user interface (frontend) for interactive deployment.</li> 
-                <li>Extracted and analyzed audio features (Mel Spectrograms, Tempo, ZCR, Rolloff, Mean, Variance, Chroma STFT) to improve genre classification accuracy.</li>
-                <li>Experimented with and compared machine learning models: K-Nearest Neighbors, Logistic Regression, Random Forests, and Neural Networks.</li>
-                <li>Achieved 78% accuracy with Extreme Gradient Boosting (XGB), optimizing the model through data normalization and parameter tuning.</li>
-            </ul>
-        </div>
+        <h3>Song Genre Classification with Python</h3>
+        <ul>
+            <li>Developed a machine learning model for genre prediction (backend) and a Streamlit-based user interface (frontend) for interactive deployment.</li>
+            <li>Extracted and analyzed audio features (Mel Spectrograms, Tempo, ZCR, Rolloff, Mean, Variance, Chroma STFT) to improve genre classification accuracy.</li>
+            <li>Experimented with and compared machine learning models: K-Nearest Neighbors, Logistic Regression, Random Forests, and Neural Networks.</li>
+            <li>Achieved 78% accuracy with Extreme Gradient Boosting (XGB), optimizing the model through data normalization and parameter tuning.</li>
+        </ul>
     </section>
 
-    <section id="contact" class="container">
+    <section id="contact" class="section container">
         <h2>Contact</h2>
         <p>Feel free to reach out to me. You can find me on:</p>
-        <ul>
-            <a class="button" href=mailto:canino@ucdavis.edu>Email</a>
+        <ul class="contact-links">
+            <a class="button" href="mailto:canino@ucdavis.edu">Email</a>
             <a class="button" href="https://www.linkedin.com/in/cninofra">LinkedIn Profile</a>
             <a class="button" href="https://github.com/ccew">GitHub Profile</a>
         </ul>
     </section>
 
-    <footer>
-        <p>&copy; 2024 GDSC HTML/CSS Bootcamp. All rights reserved.</p>
-    </footer>
+
+<footer>
+    <p>&copy; 2024 GDSC HTML/CSS Bootcamp. All rights reserved.</p>
+</footer>
 </body>
 
 </html>

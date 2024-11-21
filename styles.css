@@ -1,7 +1,8 @@
+
 body {
     font-family: calibri, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 0 auto;
     background-color: #f4f4f4;
 }
 
@@ -13,25 +14,50 @@ body {
 }
 
 header {
-    background-color: rgba(159, 208, 243, 0.949);
-    color: black;
-    padding: 0;
+    background-color: rgb(129, 154, 224);
+    padding: 20px 0;
+    position: relative;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
 }
 
 nav ul {
-    justify-content: space-evenly;
-    text-align: right;
-    display: horizontal;
-    padding: 20px 0;
-    margin-right: 100px;
-    
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 15px;
 }
 
 nav a {
+    text-decoration: none;
     color: black;
-    padding: 20px 12px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
+nav a:hover {
+    background-color: rgb(129, 154, 224);
+    color: white;
+}
+
+.section {
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    padding-top: 20px;
+}
 
 footer {
     background-color: black;
@@ -39,10 +65,11 @@ footer {
     text-align: center;
     padding: 1em 0;
 }
+
 .button {
     color: black;
     background-color: rgb(129, 154, 224);
-    padding: 16px 32px;
+    padding: 12px 24px;
     text-align: center;
     text-decoration: none;
     display: inline-flex;
@@ -51,4 +78,11 @@ footer {
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 8px;
-  }
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+
