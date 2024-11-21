@@ -10,23 +10,23 @@
 
 <body>
     <header>
-        <div class="container">
-            <h1>Camila Nino</h1>
+        
             <nav>
                 <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#projects">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#coursework">Coursework</a></li>
-
+                    <a href="#about">About Me</a>
+                    <a href="#coursework">Coursework</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
                 </ul>
             </nav>
+        <div class="container">
+            <h1>Camila Nino Francia</h1>
+            
         </div>
     </header>
 
     <section id="about" class="container">
         <h2>About Me</h2>
-        <p>Welcome to my portfolio!</p>
             <p>Hobbies and fun facts:</p>
             <ul>
                 <li>I love watching series</li>
@@ -36,11 +36,27 @@
             
     </section>
 
+
+    <section id="coursework" class="container">
+        <h2>Coursework</h2>
+        <p>Here are some of the courses I have taken:</p>
+        <ul>
+            <li>Introduction to Computer Science</li>
+            <li>Object Oriented Programming</li>
+            <li>Data Structures and Algorithms</li>
+        </ul>
+    </section>
+
     <section id="projects" class="container">
         <h2>Projects</h2>
         <div>
-            <h3>Project 1</h3>
-            <p>Description of Project 1.</p>
+            <h3>Song Genre Classification with Python</h3>
+            <ul>
+                <li>Developed a machine learning model for genre prediction (backend) and a Streamlit-based user interface (frontend) for interactive deployment.</li> 
+                <li>Extracted and analyzed audio features (Mel Spectrograms, Tempo, ZCR, Rolloff, Mean, Variance, Chroma STFT) to improve genre classification accuracy.</li>
+                <li>Experimented with and compared machine learning models: K-Nearest Neighbors, Logistic Regression, Random Forests, and Neural Networks.</li>
+                <li>Achieved 78% accuracy with Extreme Gradient Boosting (XGB), optimizing the model through data normalization and parameter tuning.</li>
+            </ul>
         </div>
     </section>
 
@@ -48,14 +64,14 @@
         <h2>Contact</h2>
         <p>Feel free to reach out to me. You can find me on:</p>
         <ul>
-            <li>Email: <a href="mailto:canino@ucdavis.edu">your.email@example.com</a></li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/cninofra">LinkedIn Profile</a></li>
-            <li>GitHub: <a href="https://github.com/ccew">GitHub Profile</a></li>
+            <a class="button" href=mailto:canino@ucdavis.edu>Email</a>
+            <a class="button" href="https://www.linkedin.com/in/cninofra">LinkedIn Profile</a>
+            <a class="button" href="https://github.com/ccew">GitHub Profile</a>
         </ul>
     </section>
 
     <footer>
-        <p>&copy; 2024 Your Portfolio. All rights reserved.</p>
+        <p>&copy; 2024 GDSC HTML/CSS Bootcamp. All rights reserved.</p>
     </footer>
 </body>
 

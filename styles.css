@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: calibri, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -9,56 +9,46 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    color: black;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 1em 0;
-}
-
-header h1 {
-    margin: 0;
-}
-
-.container h2{
-    color: #000000;
+    background-color: rgba(159, 208, 243, 0.949);
+    color: black;
+    padding: 0;
 }
 
 nav ul {
     justify-content: space-evenly;
+    text-align: right;
     display: horizontal;
-    padding: 0;
+    padding: 20px 0;
+    margin-right: 100px;
+    
 }
 
 nav a {
-    text-decoration: none;
-    color: #F0F8FF;
-    padding: 0.5em 1em;
+    color: black;
+    padding: 20px 12px;
 }
 
-section {
-    margin: 40px 0;
-}
-
-h2 {
-    color: #F0F8FF;
-}
-
-.portfolio-item {
-    margin-bottom: 20px;
-}
-
-.portfolio-item img {
-    max-width: 100%;
-    height: auto;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
 
 footer {
-    background-color: #000000;
+    background-color: black;
     color: #fff;
     text-align: center;
     padding: 1em 0;
 }
+.button {
+    color: black;
+    background-color: rgb(129, 154, 224);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+  }
